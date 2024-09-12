@@ -23,6 +23,20 @@ The primary goal of this research is to assess the performance of RAG systems wh
 - `requirements.txt`: Contains a list of all dependencies required to run the notebook, including:
   - Python libraries such as `numpy`, `pandas`, `matplotlib`, `scikit-learn`, `jupyter`, and others needed for the notebook.
 
+### Test Documents
+
+-   `JoR-Review-2019.pdf`: This PDF serves as the sample physics journal article used in the evaluation. It contains complex and dense scientific content with specialized terminology, making it ideal for testing the RAG system's ability to handle structured, technical materials.
+-   `Transformers.pdf`: This document is used as the sample textbook in the analysis. It offers detailed technical information and structured content, allowing for a thorough examination of the RAG system's capability to process and retrieve information from informative, educational texts.
+-   `war-and-peace.pdf`: This is the full text of *War and Peace* by Leo Tolstoy, used as the sample novel in the study. The narrative-driven content, rich in characters and intricate plots, challenges the RAG system's ability to maintain narrative coherence and effectively retrieve information from less structured, expansive texts.
+
+### Data Files
+
+-   `eval_ds.xlsx`: The initial evaluation dataset used to assess the performance of the RAG system. It contains retrieval performance metrics across the three document types (journal article, textbook, novel).
+-   `eval_ds_updated_OAI-LMS.xlsx`: This updated dataset includes retrieval performance data for both OpenAI and LM Studio retrieval systems. It provides a direct comparison between these two methods across the test documents.
+-   `eval_ds_updated_OAI-LMS_with_scores.xlsx`: This file extends the previous datasets by incorporating detailed retrieval scores, offering a more comprehensive view of the system's performance across different retrieval models and document types.
+-   `eval_ds_updated_OAI-LMS_with_scores-Merged.xlsx`: A merged version of all the evaluation data, consolidating retrieval scores and performance metrics for both OpenAI and LM Studio systems. This dataset provides a complete overview of system performance across all test document types and splitting methods.
+
+
 ## **Installation Instructions**
 
 ### **Prerequisites**
